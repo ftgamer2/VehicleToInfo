@@ -1,32 +1,105 @@
-# VehicleToInfo
+🚗 VehicleToInfo
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)  
-![License](https://img.shields.io/badge/license-MIT-blue)  
+Premium RTO Vehicle Information Fetcher – Termux Edition
 
-## Description  
-A brief overview of what this project does and what problem it solves.
+---
 
-## Table of Contents  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Contributing](#contributing)  
-- [License](#license)  
+📸 PREVIEW
 
-## Installation  
-To install this project, simply clone the repository:
+```
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 RC NUMBER : BR02AG0732
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+👤  OWNER DETAILS
+────────────────────────
+  Owner Name          : SUMIT KUMAR
+  Father's Name       : SUNIL KUMAR
+  Owner Serial        : First Owner
+  Financier           : On Cash
+  Phone               : N/A
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   🥷🏿  developer @ftgamer2
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+---
+
+⚡ FEATURES
+
+✅ Live RC Data – Direct from Vahan portal
+✅ Smooth Animations – Typing effect + spinner
+✅ Color UI – Emoji + ANSI, Termux optimized
+✅ Smart Error Handling – No crashes
+✅ Clean Output – No JSON, no clutter
+
+---
+
+📦 INSTALLATION
+
 ```bash
+pkg update && pkg upgrade -y
+pkg install python git -y
+pip install requests beautifulsoup4
 git clone https://github.com/ftgamer2/VehicleToInfo.git
+cd VehicleToInfo
+python veh.py
 ```
 
-## Usage  
-Here’s how you use the project:
+---
+
+🚀 USAGE
+
+```bash
+python veh.py
+```
+
+→ Enter vehicle number
+→ Get instant formatted result
+
+---
+
+📁 FILES
+
+```
+VehicleToInfo/
+├── veh.py          # Main script
+└── README.md       # Documentation
+```
+
+---
+
+⚙️ DEPENDENCIES
+
 ```python
-# Example code usage here
-print("Hello World!")
+requests
+beautifulsoup4
 ```
 
-## Contributing  
-Contributions are welcome! Please create a pull request or open an issue.
+---
 
-## License  
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+🛡️ LICENSE
+
+All Rights Reserved © 2026 @ftgamer2
+
+This project is proprietary and confidential.
+No part of this software may be reproduced, distributed, or transmitted in any form or by any means without the prior written permission of the developer.
+
+Unauthorized copying, modification, distribution, or commercial use is strictly prohibited and may result in legal action.
+
+Just give me credit if you're using it for commercial purpose or any public uses.
+
+---
+
+🧑‍💻 DEVELOPER
+
+```
+🥷🏿  @ftgamer2
+```
+
+GitHub: https://github.com/ftgamer2
+
+---
+
+Made with 💦 for u
